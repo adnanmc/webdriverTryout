@@ -1,0 +1,21 @@
+{
+  "name": "webdriveriocourse",
+  "version": "1.0.0",
+  "description": "Webdriver IO Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-install": "./node_modules/.bin/selenium-standalone install",
+    "server": "./node_modules/.bin/selenium-standalone start",
+    "wdio": "./node_modules/.bin/wdio"
+  },
+  "author": "Adnan",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "selenium-standalone": "^6.15.4",
+    "wdio-mocha-framework": "^0.6.4",
+    "webdriverio": "^4.13.2"
+  },
+  "dependencies": {}
+}
